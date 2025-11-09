@@ -3,3 +3,20 @@
 # Setting up picamera2 dependencies:
 https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/PiCamera2-User-Guide/#getting-started
 
+
+# Installing GNU Radio
+https://wiki.gnuradio.org/index.php/LinuxInstall#Ubuntu_PPA_Installation
+
+
+    sudo apt update
+    sudo apt install gnuradio
+
+
+Installing libiio 
+    $ sudo apt install libiio-dev libiio-utils python3-libiio
+
+
+Check out the device:
+    $ iio_info -u ip:192.168.2.1  # Use your actual Pluto IP here
+
+
